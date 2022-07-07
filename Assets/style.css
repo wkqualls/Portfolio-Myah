@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    background-color: #d9dcd6;
+    border-radius: 5px;
+    color: #2a607c;
+    display: inline-block;
+    font-size: 48px;
+    padding: 0px 10px 0px 10px;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header div ul {
+    background-color: #d9dcd6;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding: 0px 25px 0px 0px;
+}
+
+a {
+    color: #2a607c;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.qtitle {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/keyboardbanner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    margin-left: 20px;
+}
+
+div {
+    background-color: #2a607c;
+    color: #d9dcd6;
+    margin-bottom: 15px;
+}
+
+div img {
+    height: auto;
+    width: 100%;
+}
+
+aside {
+    clear: both;
+    float: left;
+    margin-right: 15px;
+    width: 20%;
+    height: 100%;
+    font-size: 36px;
+    background-color: #2a607c;
+    color: #d9dcd6;
+}
+
+.big {
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+}
+
+.small {
+    height: 200px;
+    width: 390px;
+    object-fit: cover;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #d9dcd6;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.summary {
+    background-color: #2a607c;
+    display: inline-block;
+    padding: 15px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
