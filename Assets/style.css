@@ -138,3 +138,90 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+/* --------------------- T A B L E T   P O R T R A I T ---------------------- */
+
+@media only screen and (max-width: 959px) {
+      header h1 { font-size: 135%; }
+      header h2 { font-size: 120%; }
+}
+
+/* -------------------- M O B I L E   L A N D S C A P E --------------------- */
+
+@media only screen and (max-width: 767px) {
+      header img { float: none; }
+      
+      header {
+        display: flex;
+        text-align: center;
+    }
+
+    header, footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header h1, header h2 { flex-basis: 100%; }
+      
+      main {
+            flex-direction: column;
+      }
+      
+      section1 {
+            order: 1;
+            width: 95%;
+      }
+      
+      section2 {
+            order: 2;
+            padding: 2.5% 2.5%;
+            width: 95%;
+      }
+    
+       section3 {
+            order: 3;
+            padding: 2.5% 2.5%;
+            width: 95%;
+      }
+
+      store h1 {
+            font-size: 150%;
+      }
+
+      store h2 {
+            font-size: 125%;
+      }
+      
+      store p{
+            font-size: 100%;
+      }
+
+      store p strong {
+            font-size: 120%;
+      }
+
+      store ul li a {
+            font-size: 100%;
+      }
+      
+      #nav_menu {
+            display: none;
+      }
+      
+      #mobile_menu {
+            display: block;
+      }
+      
+      .slicknav_menu {
+            background-color: #000000 !important;
+      }
+}
+
+/* -------------------- M O B I L E   P O R T R A I T --------------------- */
+
+@media only screen and (max-width: 479px) {
+      body { font-size: 90%;
+      }
+      
+      
+}
